@@ -1,7 +1,7 @@
 local gears = require("gears")
 local awful = require("awful")
 
-local config = require("config")
+local config = require("config.config")
 
 require("awful.autofocus")
 -- Widget and layout library
@@ -9,7 +9,7 @@ local wibox = require("wibox")
 -- Theme handling library
 local beautiful = require("beautiful")
 
-local my_launcher_menu = require("popups.launcher_menu")
+local my_launcher_menu = require("ui.popups.launcher_menu")
 
 local mylauncher = awful.widget.launcher({
 	image = beautiful.launcher_icon,

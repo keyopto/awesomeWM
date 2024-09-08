@@ -2,7 +2,7 @@ local awful = require("awful")
 local beautiful = require("beautiful")
 local hotkeys_popup = require("awful.hotkeys_popup")
 
-local terminal = require("config").terminal
+local terminal = require("config.config").terminal
 
 local myawesomemenu = {
 	{
@@ -11,8 +11,6 @@ local myawesomemenu = {
 			hotkeys_popup.show_help(nil, awful.screen.focused())
 		end,
 	},
-	{ "manual", terminal .. " -e man awesome" },
-	{ "edit config", editor_cmd .. " " .. awesome.conffile },
 	{ "restart", awesome.restart },
 	{
 		"quit",

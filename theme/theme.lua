@@ -54,7 +54,7 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(taglist_square_
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_submenu_icon = "~/.config/awesome/theme/submenu.png"
+theme.menu_submenu_icon = "~/.config/awesome/images/others/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width = dpi(100)
 
@@ -64,68 +64,80 @@ theme.menu_width = dpi(100)
 --theme.bg_widget = "#cc0000"
 
 -- Define the image to load
-theme.titlebar_close_button_normal = "~/.config/awesome/theme/titlebar/close_normal.png"
-theme.titlebar_close_button_focus = "~/.config/awesome/theme/titlebar/close_focus.png"
+theme.titlebar_close_button_normal = "~/.config/awesome/images/icons/titlebar/close_normal.png"
+theme.titlebar_close_button_focus = "~/.config/awesome/images/icons/titlebar/close_focus.png"
 
-theme.titlebar_minimize_button_normal = "~/.config/awesome/theme/titlebar/minimize_normal.png"
-theme.titlebar_minimize_button_focus = "~/.config/awesome/theme/titlebar/minimize_focus.png"
+theme.titlebar_minimize_button_normal = "~/.config/awesome/images/icons/titlebar/minimize_normal.png"
+theme.titlebar_minimize_button_focus = "~/.config/awesome/images/icons/titlebar/minimize_focus.png"
 
-theme.titlebar_ontop_button_normal_inactive = "~/.config/awesome/theme/titlebar/ontop_normal_inactive.png"
-theme.titlebar_ontop_button_focus_inactive = "~/.config/awesome/theme/titlebar/ontop_focus_inactive.png"
-theme.titlebar_ontop_button_normal_active = "~/.config/awesome/theme/titlebar/ontop_normal_active.png"
-theme.titlebar_ontop_button_focus_active = "~/.config/awesome/theme/titlebar/ontop_focus_active.png"
+theme.titlebar_ontop_button_normal_inactive = "~/.config/awesome/images/icons/titlebar/ontop_normal_inactive.png"
+theme.titlebar_ontop_button_focus_inactive = "~/.config/awesome/images/icons/titlebar/ontop_focus_inactive.png"
+theme.titlebar_ontop_button_normal_active = "~/.config/awesome/images/icons/titlebar/ontop_normal_active.png"
+theme.titlebar_ontop_button_focus_active = "~/.config/awesome/images/icons/titlebar/ontop_focus_active.png"
 
-theme.titlebar_sticky_button_normal_inactive = "~/.config/awesome/theme/titlebar/sticky_normal_inactive.png"
-theme.titlebar_sticky_button_focus_inactive = "~/.config/awesome/theme/titlebar/sticky_focus_inactive.png"
-theme.titlebar_sticky_button_normal_active = "~/.config/awesome/theme/titlebar/sticky_normal_active.png"
-theme.titlebar_sticky_button_focus_active = "~/.config/awesome/theme/titlebar/sticky_focus_active.png"
+theme.titlebar_sticky_button_normal_inactive = "~/.config/awesome/images/icons/titlebar/sticky_normal_inactive.png"
+theme.titlebar_sticky_button_focus_inactive = "~/.config/awesome/images/icons/titlebar/sticky_focus_inactive.png"
+theme.titlebar_sticky_button_normal_active = "~/.config/awesome/images/icons/titlebar/sticky_normal_active.png"
+theme.titlebar_sticky_button_focus_active = "~/.config/awesome/images/icons/titlebar/sticky_focus_active.png"
 
-theme.titlebar_floating_button_normal_inactive = "~/.config/awesome/theme/titlebar/floating_normal_inactive.png"
-theme.titlebar_floating_button_focus_inactive = "~/.config/awesome/theme/titlebar/floating_focus_inactive.png"
-theme.titlebar_floating_button_normal_active = "~/.config/awesome/theme/titlebar/floating_normal_active.png"
-theme.titlebar_floating_button_focus_active = "~/.config/awesome/theme/titlebar/floating_focus_active.png"
+theme.titlebar_floating_button_normal_inactive = "~/.config/awesome/images/icons/titlebar/floating_normal_inactive.png"
+theme.titlebar_floating_button_focus_inactive = "~/.config/awesome/images/icons/titlebar/floating_focus_inactive.png"
+theme.titlebar_floating_button_normal_active = "~/.config/awesome/images/icons/titlebar/floating_normal_active.png"
+theme.titlebar_floating_button_focus_active = "~/.config/awesome/images/icons/titlebar/floating_focus_active.png"
 
-theme.titlebar_maximized_button_normal_inactive = "~/.config/awesome/theme/titlebar/maximized_normal_inactive.png"
-theme.titlebar_maximized_button_focus_inactive = "~/.config/awesome/theme/titlebar/maximized_focus_inactive.png"
-theme.titlebar_maximized_button_normal_active = "~/.config/awesome/theme/titlebar/maximized_normal_active.png"
-theme.titlebar_maximized_button_focus_active = "~/.config/awesome/theme/titlebar/maximized_focus_active.png"
+theme.titlebar_maximized_button_normal_inactive =
+	"~/.config/awesome/images/icons/titlebar/maximized_normal_inactive.png"
+theme.titlebar_maximized_button_focus_inactive = "~/.config/awesome/images/icons/titlebar/maximized_focus_inactive.png"
+theme.titlebar_maximized_button_normal_active = "~/.config/awesome/images/icons/titlebar/maximized_normal_active.png"
+theme.titlebar_maximized_button_focus_active = "~/.config/awesome/images/icons/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "~/.config/awesome/theme/background.jpeg"
+theme.wallpaper = "~/.config/awesome/images/others/background.jpeg"
+-- theme.wallpaper = "~/.config/awesome/images/others/background-pro.jpg"
+theme.lock_screen = "~/.config/awesome/images/others/lock_screen.png"
 
 -- You can use your own layout icons like this:
-theme.layout_fairh = "~/.config/awesome/theme/layouts/fairhw.png"
-theme.layout_fairv = "~/.config/awesome/theme/layouts/fairvw.png"
-theme.layout_floating = "~/.config/awesome/theme/layouts/floatingw.png"
-theme.layout_magnifier = "~/.config/awesome/theme/layouts/magnifierw.png"
-theme.layout_max = "~/.config/awesome/theme/layouts/maxw.png"
-theme.layout_fullscreen = "~/.config/awesome/theme/layouts/fullscreenw.png"
-theme.layout_tilebottom = "~/.config/awesome/theme/layouts/tilebottomw.png"
-theme.layout_tileleft = "~/.config/awesome/theme/layouts/tileleftw.png"
-theme.layout_tile = "~/.config/awesome/theme/layouts/tilew.png"
-theme.layout_tiletop = "~/.config/awesome/theme/layouts/tiletopw.png"
-theme.layout_spiral = "~/.config/awesome/theme/layouts/spiralw.png"
-theme.layout_dwindle = "~/.config/awesome/theme/layouts/dwindlew.png"
-theme.layout_cornernw = "~/.config/awesome/theme/layouts/cornernww.png"
-theme.layout_cornerne = "~/.config/awesome/theme/layouts/cornernew.png"
-theme.layout_cornersw = "~/.config/awesome/theme/layouts/cornersww.png"
-theme.layout_cornerse = "~/.config/awesome/theme/layouts/cornersew.png"
+theme.layout_fairh = "~/.config/awesome/images/icons/layouts/fairhw.png"
+theme.layout_fairv = "~/.config/awesome/images/icons/layouts/fairvw.png"
+theme.layout_floating = "~/.config/awesome/images/icons/layouts/floatingw.png"
+theme.layout_magnifier = "~/.config/awesome/images/icons/layouts/magnifierw.png"
+theme.layout_max = "~/.config/awesome/images/icons/layouts/maxw.png"
+theme.layout_fullscreen = "~/.config/awesome/images/icons/layouts/fullscreenw.png"
+theme.layout_tilebottom = "~/.config/awesome/images/icons/layouts/tilebottomw.png"
+theme.layout_tileleft = "~/.config/awesome/images/icons/layouts/tileleftw.png"
+theme.layout_tile = "~/.config/awesome/images/icons/layouts/tilew.png"
+theme.layout_tiletop = "~/.config/awesome/images/icons/layouts/tiletopw.png"
+theme.layout_spiral = "~/.config/awesome/images/icons/layouts/spiralw.png"
+theme.layout_dwindle = "~/.config/awesome/images/icons/layouts/dwindlew.png"
+theme.layout_cornernw = "~/.config/awesome/images/icons/layouts/cornernww.png"
+theme.layout_cornerne = "~/.config/awesome/images/icons/layouts/cornernew.png"
+theme.layout_cornersw = "~/.config/awesome/images/icons/layouts/cornersww.png"
+theme.layout_cornerse = "~/.config/awesome/images/icons/layouts/cornersew.png"
 
 -- Generate Awesome icon:
 theme.awesome_icon = theme_assets.awesome_icon(theme.menu_height, theme.bg_focus, theme.fg_focus)
 
--- other icons
-theme.launcher_icon = "~/.config/awesome/images/dice-twenty.svg"
-theme.volume = "~/.config/awesome/theme/icons/guitar.png"
-theme.volume_high = "~/.config/awesome/theme/icons/bagpipe.png"
-theme.volume_low = "~/.config/awesome/theme/icons/ocarina.png"
-theme.volume_mute = "~/.config/awesome/theme/icons/spirit.png"
+-- launcher icon
+theme.launcher_icon = "~/.config/awesome/images/icons/dice-twenty.svg"
+
+-- volume icon
+theme.volume = "~/.config/awesome/images/icons/guitar.png"
+theme.volume_high = "~/.config/awesome/images/icons/bagpipe.png"
+theme.volume_low = "~/.config/awesome/images/icons/ocarina.png"
+theme.volume_mute = "~/.config/awesome/images/icons/spirit.png"
+
+-- powermenu icon
+theme.logoff_active = "~/.config/awesome/images/icons/powermenu/logoff-active.png"
+theme.logoff_inactive = "~/.config/awesome/images/icons/powermenu/logoff-inactive.png"
+theme.logout_active = "~/.config/awesome/images/icons/powermenu/logout-active.png"
+theme.logout_inactive = "~/.config/awesome/images/icons/powermenu/logout-inactive.png"
+theme.lock_active = "~/.config/awesome/images/icons/powermenu/lock-active.png"
+theme.lock_inactive = "~/.config/awesome/images/icons/powermenu/lock-inactive.png"
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
 theme.icon_theme = nil
 
 theme.background_dark = "#1a1b26"
+theme.background_powermenu = "#aeafb1"
 
 return theme
-
--- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80

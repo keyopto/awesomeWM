@@ -1,10 +1,12 @@
 local gears = require("gears")
 local awful = require("awful")
 local hotkeys_popup = require("awful.hotkeys_popup")
-local launcher_menu = require("popups.launcher_menu")
-local config = require("config")
+local config = require("config.config")
 
 local terminal = config.terminal
+local modkey = config.modkey
+
+local powermenu = require("ui.popups.powermenu")
 
 local globalkeys = gears.table.join(
 	awful.key({ modkey }, "s", hotkeys_popup.show_help, { description = "show help", group = "awesome" }),
@@ -79,7 +81,6 @@ local globalkeys = gears.table.join(
 		awful.spawn(terminal)
 	end, { description = "open a terminal", group = "launcher" }),
 	awful.key({ modkey, "Control" }, "r", awesome.restart, { description = "reload awesome", group = "awesome" }),
-	awful.key({ modkey, "Shift" }, "q", awesome.quit, { description = "quit awesome", group = "awesome" }),
 
 	awful.key({ modkey, "Control" }, "n", function()
 		local c = awful.client.restore()
@@ -147,7 +148,12 @@ local globalkeys = gears.table.join(
 	-- File manager
 	awful.key({ modkey }, "e", function()
 		awful.util.spawn("kitty yazi")
-	end, { description = "Open file manager (terminal)", group = "customs" })
+	end, { description = "Open file manager (terminal)", group = "customs" }),
+
+	-- Power menu
+	awful.key({ modkey, "Shift" }, "q", function()
+		powermenu.visible = not powermenu.visible
+	end, { description = "Show powermenu", group = "awesome" })
 )
 
 return globalkeys

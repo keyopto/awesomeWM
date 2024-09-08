@@ -1,5 +1,8 @@
 local gears = require("gears")
 local awful = require("awful")
+local config = require("config.config")
+
+local modkey = config.modkey
 
 local clientkeys = gears.table.join(
 	-- window change visible property
